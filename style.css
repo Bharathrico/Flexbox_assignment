@@ -191,3 +191,81 @@ body
         height: max-content;
     }
 }
+
+@media (width<480px)
+{
+  .component-complex
+  {
+    width: 350px;
+
+  }
+  
+  .main-content
+  {
+    .description
+    {
+    .text
+    {
+      font-size: 12px;
+    }
+    }
+  }
+
+  .header
+  {
+    font-size: 10px ;
+    .title-date
+    {
+      .title
+     {
+        font-size: 16px;
+     }
+    }
+    .author
+    {
+        font-size: 10px;
+        gap: 4px;
+        padding: 4px;
+        img
+        {
+            width: 10px;
+            height: 10px;
+        }
+    }
+    
+  }
+
+  .desktop-text
+  {
+    display: none;
+    visibility: none;
+  }
+
+  .engagement-bar
+  {
+    font-size: 14px;
+  }
+
+  .engagement-metric
+  {
+    height: auto;
+    align-items: center;
+  }
+
+  .icons
+  {
+    width: 14px;
+    height: 14px;
+  }
+
+  .author
+  {
+    align-items: center;
+  }
+
+  .comment
+  {
+    padding: 8px;
+    gap: 8px;
+  }
+}
